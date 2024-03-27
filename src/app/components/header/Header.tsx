@@ -14,7 +14,7 @@ const Header = () => {
                 <input className="bg-black text-white w-[260px] text-[14px] active:no-underline" type="text" />
                 <Image className="m-[5px]" src={Globe} alt="Globe" width={16} height={16} loading="lazy"/>
             </div>
-            <div className="mt-[43px] flex ml-[150px] font-gilroy_600">
+            <div className="mt-[35px] flex ml-[150px] font-gilroy_600">
                 <div className="flex">
                     <Image width={32} height={32} className="w-[32px] h-[32px] mt-[14px]" src={LoginArrow} alt="Login Arrow" loading="lazy"/>
                     <button className="text-white h-[35px] m-[12px]">Login</button>

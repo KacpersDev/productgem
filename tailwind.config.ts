@@ -10,7 +10,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         gilroy: ["gilroy", 'sans-serif'],
-        gilroy_600: ["gilroy_600", 'sans-serif']
+        gilroy_600: ["gilroy_600", 'sans-serif'],
+        gilroy_600_italic: ["gilroy_600_italic", 'sans-serif'],
+        gilroy_900: ["gilroy_900", 'sans-serif'],
       }
     },
   },

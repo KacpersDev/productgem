@@ -21,3 +21,11 @@ input::selection {
   font-family: "gilroy_600";
   src: url("./fonts/Gilroy-Bold.ttf");
 }
+@font-face {
+  font-family: "gilroy_600_italic";
+  src: url("./fonts/Gilroy-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "gilroy_900";
+  src: url("./fonts/Gilroy-BlackItalic.ttf");
+}
