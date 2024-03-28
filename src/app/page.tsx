@@ -6,6 +6,7 @@ import Subscription from "./components/subscription/Subscription"
 import History from "./components/history/ProjectHistory";
 import Software from "./components/software/Software"
 import Faq from "./components/faq/Faq"
+import Footer from "./components/footer/Footer"
 
 export default function Home(){
   return(
@@ -18,6 +19,7 @@ export default function Home(){
       <Faq/>
       <Pr/>
       <Subscription/>
+      <Footer/>
     </>
   )
 }
