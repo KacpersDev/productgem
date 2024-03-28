@@ -38,7 +38,7 @@ const Discover = () => {
                 </div>
             </div>
             <div className="mt-[-30px]">
-                <Image src={Abstract} alt="Abstract"/>
+                <Image width={800} src={Abstract} alt="Abstract"/>
             </div>
         </div>
     )

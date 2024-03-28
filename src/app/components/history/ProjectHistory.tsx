@@ -6,7 +6,7 @@ const ProjectHistory = () => {
     return(
         <div className="flex justify-center mt-[50px] font-gilroy mr-[200px]">
             <div className="">
-                <Image className="mt-[20px]" src={Sales} alt="sales" loading="lazy"/>
+                <Image className="w-[1500px]" src={Sales} alt="sales" loading="lazy"/>
             </div>
             <div>
                 <div className="ml-[-550px] mt-[175px]">
