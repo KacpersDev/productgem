@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Discover = () => {
     return(
-        <div className="flex justify-center font-gilroy mt-[100px]">
+        <div className="flex justify-center font-gilroy mt-[100px] max-[1500px]:grid">
             <div className="ml-[150px]">
                 <p className="text-white text-[50px] font-gilroy_600 w-[750px] text-[80px]">Discover Success with <span className="font-gilroy_900 text-[#62cb5d]">ProductGem.</span></p>
                 <div className="flex mt-[50px]">
@@ -38,8 +38,8 @@ const Discover = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[-30px]">
-                <Image width={800} src={Abstract} alt="Abstract"/>
+            <div className="mt-[-30px] flex-shrink-0 max-[1500px]:w-[1px]">
+                <Image className="w-[800px]" src={Abstract} alt="Abstract"/>
             </div>
         </div>
     )

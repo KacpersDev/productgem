@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const ProjectHistory = () => {
     return(
-        <div className="flex justify-center mt-[50px] font-gilroy mr-[200px]">
-            <div className="">
-                <Image className="w-[1500px]" src={Sales} alt="sales" loading="lazy"/>
+        <div className="flex justify-center mt-[50px] font-gilroy mr-[200px] max-[1380px]:grid">
+            <div className="flex-shrink-0">
+                <Image className="w-[1500px] flex-shrink-0 max-[1380px]:mr-auto" src={Sales} alt="sales" loading="lazy"/>
             </div>
-            <div>
-                <div className="ml-[-550px] mt-[175px]">
+            <div className="">
+                <div className="ml-[-550px] mt-[175px] max-[1380px]:ml-auto max-[1380px]:text-center">
                     <p className="text-white font-gilroy_600 text-[35px] w-[350px] text-center ml-auto mr-auto mb-[15px] ml-[65px]">Alap's Background & History.</p>
                     <p className="w-[520px] text-white font-gilroy_600 text-center">
                         Alap and Khal met through a Discord Group and became friends. Khal was working on <span className="text-[#62cb5d]">ProductGem </span>
