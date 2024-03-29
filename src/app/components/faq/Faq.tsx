@@ -20,14 +20,14 @@ const Faq = () => {
                         Curabitur semper erat vel est luctus, sed egestas ligula pharetra. Pellentesque eu massa vehicula, iaculis metus a, volutpat metus. In hac habitasse platea dictumst.
                     </p>
                 </div>
-                <div className={question2 ? "bg-[#202020] w-[800px] h-[200px] rounded-xl hover:cursor-pointer" : "bg-[#202020] w-[800px] h-[65px] rounded-xl hover:cursor-pointer"} onClick={(() => setQuestion2(!question2))}>
+                <div className={question2 ? "bg-[#202020] w-[800px] h-[200px] rounded-xl hover:cursor-pointer mt-[5px]" : "bg-[#202020] w-[800px] h-[65px] rounded-xl hover:cursor-pointer mt-[5px]"} onClick={(() => setQuestion2(!question2))}>
                     <p className="font-gilroy_600 text-white m-[10px] text-[20px] mt-[17px] ml-[20px]">What is "ProductGem" & What We Do ?</p>
                     <p className={question2 ? "text-white mt-[20px] text-[20px] ml-[20px] mr-[20px]" : "text-white mt-[20px] text-[20px] ml-[20px] mr-[20px] hidden"}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel molestie nibh. 
                         Curabitur semper erat vel est luctus, sed egestas ligula pharetra. Pellentesque eu massa vehicula, iaculis metus a, volutpat metus. In hac habitasse platea dictumst.
                     </p>
                 </div>
-                <div className={question3 ? "bg-[#202020] w-[800px] h-[200px] rounded-xl hover:cursor-pointer" : "bg-[#202020] w-[800px] h-[65px] rounded-xl hover:cursor-pointer"} onClick={(() => setQuestion3(!question3))}>
+                <div className={question3 ? "bg-[#202020] w-[800px] h-[200px] rounded-xl hover:cursor-pointer mt-[5px]" : "bg-[#202020] w-[800px] h-[65px] rounded-xl hover:cursor-pointer mt-[5px]"} onClick={(() => setQuestion3(!question3))}>
                     <p className="font-gilroy_600 text-white m-[10px] text-[20px] mt-[17px] ml-[20px]">What is "ProductGem" & What We Do ?</p>
                     <p className={question3 ? "text-white mt-[20px] text-[20px] ml-[20px] mr-[20px]" : "text-white mt-[20px] text-[20px] ml-[20px] mr-[20px] hidden"}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel molestie nibh. 
@@ -36,7 +36,7 @@ const Faq = () => {
                 </div>
             </div>
             <button className="text-white font-gilroy_600 bg-[#62cb5d] w-[250px] h-[45px] grid justify-center ml-auto mr-auto mt-[30px] text-[18px] rounded-2xl
-            pt-[10px]">Start 7-Day: Free Trial</button>
+            pt-[10px]" onClick={(() => location.href = 'https://www.productgem.co/sign-up')}>Start 7-Day: Free Trial</button>
         </div>
     )
 }

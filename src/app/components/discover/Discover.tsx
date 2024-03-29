@@ -1,3 +1,4 @@
+'use client';
 import Abstract from "@/app/assets/Abstract.png";
 import Arrow from "@/app/assets/arrow.png";
 import Sparks from "@/app/assets/Sparks.png";
@@ -14,7 +15,7 @@ const Discover = () => {
             <div className="ml-[150px]">
                 <p className="text-white text-[50px] font-gilroy_600 w-[750px] text-[80px]">Discover Success with <span className="font-gilroy_900 text-[#62cb5d]">ProductGem.</span></p>
                 <div className="flex mt-[50px]">
-                    <div className="flex bg-[#62cb5d] rounded-2xl w-[175px] h-[45px]">
+                    <div className="flex bg-[#62cb5d] rounded-2xl w-[175px] h-[45px]" onClick={(() => location.href = 'https://www.productgem.co/sign-up')}>
                         <Image className="w-[32px] h-[32px] mt-[7px] ml-[15px]" src={Arrow} alt="Arrow" loading="lazy"/>
                         <button className="text-white w-[150px] h-[45px] rounded-2xl font-gilroy_600">Get Started</button>
                     </div>
