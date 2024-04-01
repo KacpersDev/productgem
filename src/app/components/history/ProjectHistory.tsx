@@ -1,3 +1,4 @@
+'use client';
 import Sales from "@/app/assets/sales.png";
 
 import Image from "next/image";
@@ -18,7 +19,7 @@ const ProjectHistory = () => {
                     <p className="w-[520px] text-white mt-[10px] font-gilroy_600 text-center max-[1380px]:ml-auto max-[1380px]:mr-auto  max-[530px]:w-[300px]">
                         Before Alap found Khal, he has failed <span className="text-[#62cb5d]">9 Products</span> and nothing was working for him
                         Before using Khal's Product, Alap had <span className="text-[#62cb5d]">never had more than 3 sales / Per-Day</span>.
-                        Plus, it was unprofitable.  
+                        Plus, it was unprofitable.
                     </p>
                     <p className="w-[520px] text-white mt-[10px] font-gilroy_600 text-center max-[1380px]:ml-auto max-[1380px]:mr-auto  max-[530px]:w-[300px]">
                         After Khal recommended a Product to him, he was blown away. Fairly, Alap worked hard to get everything right for the Branding, 
@@ -30,9 +31,11 @@ const ProjectHistory = () => {
                     <p className="w-[520px] text-white mt-[10px] font-gilroy_600 text-center max-[1380px]:ml-auto max-[1380px]:mr-auto  max-[530px]:w-[300px]">
                         Using ProductGem's Product was like: 
                     </p>
-                    <p className="font-gilroy_600 text-center max-[530px]:w-[300px] max-[530px]:ml-auto max-[530px]:mr-autovfvf">
-                        <span className="text-[#62cb5d]">"My like was a candle & I was putting a flamethrower on it" - Alap</span>
+                    <p className="font-gilroy_600 text-center max-[530px]:w-[300px] max-[530px]:ml-auto max-[530px]:mr-auto">
+                        <span className="text-[#62cb5d]">"My life was a candle & I was putting a flamethrower on it" - Alap</span>
                     </p>
+                    <button className="text-white font-gilroy_600 bg-[#62cb5d] w-[250px] h-[45px] grid justify-center ml-auto mr-auto mt-[25px] text-[18px] rounded-2xl
+            pt-[10px] mb-[50px]" onClick={(() => location.href = 'https://www.productgem.co/sign-up')}>Start 7-Day: Free Trial</button>
                 </div>
             </div>
         </div>

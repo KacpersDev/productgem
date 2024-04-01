@@ -13,12 +13,12 @@ export default function Home(){
     <>
       <Header/>
       <Discover/>
-      <History/>
       <Software/>
+      <History/>
       <Testimonials/>
-      <Faq/>
       <Pr/>
       <Subscription/>
+      <Faq/>
       <Footer/>
     </>
   )
